@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-givewise-blue: #00AEEF;
+  --color-givewise-gold: #EBB700;
+  --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
