@@ -8,18 +8,17 @@ function App() {
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/givewise-logo.png" alt="GiveWise" className="h-20" />
+            <a href="https://www.givewise.ca/">
+              <img src="/givewise-logo.png" alt="GiveWise" className="h-20" />
+            </a>
           </div>
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-gray-600 hover:text-givewise-blue font-semibold text-sm">Features</a>
-            <a href="#" className="text-gray-600 hover:text-givewise-blue font-semibold text-sm">Charities</a>
-            <a href="#" className="text-gray-600 hover:text-givewise-blue font-semibold text-sm">Pricing</a>
-            <button className="px-5 py-2.5 text-sm font-bold text-givewise-blue border border-givewise-blue rounded-full hover:bg-blue-50 transition-colors">
+            <a href="https://fund.givewise.ca/login" className="px-5 py-2.5 text-sm font-bold text-givewise-blue border border-givewise-blue rounded-full hover:bg-blue-50 transition-colors text-center inline-block">
               Log In
-            </button>
-            <button className="px-5 py-2.5 text-sm font-bold text-white bg-givewise-gold rounded-full hover:bg-yellow-500 shadow-md transition-all hover:shadow-lg">
+            </a>
+            <a href="https://fund.givewise.ca/sign-up/signup" className="px-5 py-2.5 text-sm font-bold text-white bg-givewise-gold rounded-full hover:bg-yellow-500 shadow-md transition-all hover:shadow-lg text-center inline-block">
               Sign Up
-            </button>
+            </a>
           </nav>
         </div>
       </header>
