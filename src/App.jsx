@@ -38,7 +38,7 @@ function App() {
             <Calculator />
 
             <p className="mt-8 text-sm text-gray-400 max-w-2xl mx-auto">
-              Calculations are estimates based on current tax rules and the information provided. Actual tax outcomes may vary. Please consult with your financial advisor or tax professional to understand what’s right for your situation.
+              Calculations in this table are estimates based on prior-year federal and provincial tax rates and the information provided. Actual tax outcomes may vary. Please consult with your financial advisor or tax professional for guidance specific to your situation.
             </p>
           </div>
         </div>
