@@ -49,7 +49,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <img src="/givewise-logo.png" alt="GiveWise" className="h-16 opacity-50" />
           <div className="text-sm text-gray-500">
-            © {new Date().getFullYear()} GiveWise Foundation. All rights reserved.
+            Copyright 2026 GiveWise Foundation Canada.
           </div>
         </div>
       </footer>
