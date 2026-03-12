@@ -28,9 +28,10 @@ function App() {
         {/* Hero Section */}
         <div className="bg-gradient-to-b from-white to-gray-50 pt-16 pb-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+            <h1 className="sr-only">Canadian Charitable Donation Tax Calculator</h1>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
               Giving Made <span className="text-givewise-blue">Smarter</span>.
-            </h1>
+            </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
               Calculate your impact and see how much you can save by donating securities instead of cash.
             </p>
