@@ -12,11 +12,11 @@ function App() {
               <img src="/givewise-logo.png" alt="GiveWise" className="h-20" />
             </a>
           </div>
-          <nav className="hidden md:flex items-center gap-8">
-            <a href="https://fund.givewise.ca/login" className="px-5 py-2.5 text-sm font-bold text-givewise-blue border border-givewise-blue rounded-full hover:bg-blue-50 transition-colors text-center inline-block">
+          <nav className="hidden md:flex items-center gap-4">
+            <a href="https://fund.givewise.ca/login" className="px-6 py-2 text-[15px] font-medium text-givewise-blue border border-givewise-blue rounded hover:bg-blue-50 transition-colors text-center inline-block tracking-wide">
               Log In
             </a>
-            <a href="https://fund.givewise.ca/sign-up/signup" className="px-5 py-2.5 text-sm font-bold text-white bg-givewise-gold rounded-full hover:bg-yellow-500 shadow-md transition-all hover:shadow-lg text-center inline-block">
+            <a href="https://fund.givewise.ca/sign-up/signup" className="px-6 py-2 text-[15px] font-medium text-white bg-givewise-gold rounded hover:bg-yellow-500 transition-colors text-center inline-block tracking-wide">
               Sign Up
             </a>
           </nav>
